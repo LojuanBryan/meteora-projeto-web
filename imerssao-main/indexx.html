@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteora</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="cabecalho">
+  <div class="container__cabecalho">
+    <img src="Imagens/logo-header.png" class="logo" alt="logo Meteora">
+  </div>
+  <div class="container__cabecalho">
+  <span class="cabecalho__menu-hamburguer"></span>
+  </div>
+  <!--nav>
+    <ul class="lista__ul">
+      <li class="lista__menu__item">
+        <a href="#">Home</a>
+      </li>
+      <li class="lista__menu__item">
+        <a href="#">Nossas lojas</a>
+      </li>
+      <li class="lista__menu__item">
+        <a href="#">Novidades</a>
+      </li>
+      <li class="lista__menu__item">
+        <a href="#">Promoções</a>
+      </li>
+    </ul>
+  </nav-->
+</header>
+<section>
+  <div class="campo__buscar">
+    <input class="buscar__pesquisa" type="text" placeholder="Digite o produto" required>
+    <button class="botao__src">Buscar</button>
+  </div>
+
+</section>
+<section class="carrossel">
+  <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <!-- If we need pagination -->
+    <!--div class="swiper-pagination"></div-->
+
+    <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="Imagens/body/1carrossel.png" alt="modelo1"></div>
+    <div class="swiper-slide"><img src="Imagens/body/2carrossel.png" alt="modelo2"></div>
+    <div class="swiper-slide"><img src="Imagens/body/3carrossel.png" alt="modelo3"></div>
+    ...
+  </div>
+
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+
+</section>
+
+<section>
+  <h4 class="titulo__categorias">Buscar por categorias:</h4>
+
+
+<div class="links__categorias">
+  <a href="#"><img src="Imagens/categorias/camisetas.png" alt="link camisetas"></a>
+  <a href="#"><img src="Imagens/categorias/bolsas.png" alt="link bolsas"></a>
+  <a href="#"><img src="Imagens/categorias/calcados.png" alt="link calçados"></a>
+  <a href="#"><img src="Imagens/categorias/calcas.png " alt="link calças"></a>
+  <a href="#"><img src="Imagens/categorias/casacos.png" alt="link casacos"></a>
+  <a href="#"><img src="Imagens/categorias/oculos.png" alt="link óculos"></a>
+</div>
+</section>
+
+<section>
+  <h4 class="titulo__categorias">Produtos que estão bombando!</h4>
+
+  <nav class="produtos">
+    <div class="produtos__linha">
+
+      <img src="Imagens/produtos/img1.png" alt="Camiseta Conforto">
+
+      <div class="produtos__texto">
+        <p class="produtos__linha__titulo">Camiseta Conforto</p>
+        <p class="produtos__linha__descricao">Multicores e tamanhos. Tecido de algodão 100%,<br>fresquinho para o verão. Modelagem unissex.</p>
+        <p class="produtos__linha__preco">R$ 70,00</p>
+        <a class="produtos__linha__vermais">Ver mais</a>
+      </div>
+    </div>
+
+    <div class="produtos__linha">
+
+      <img src="Imagens/produtos/img2.png" alt="Calça Alfaiataria">
+
+      <div class="produtos__texto">
+        <p class="produtos__linha__titulo">Calça Alfaiataria</p>
+        <p class="produtos__linha__descricao">Modelo Wide Leg alfaiataria em linho. Uma peça<br> pra vida toda!</p>
+        <p class="produtos__linha__preco">R$ 180,00</p>
+        <a class="produtos__linha__vermais">Ver mais</a>
+      </div>
+    </div>
+
+    <div class="produtos__linha">
+
+      <img src="Imagens/produtos/img3.png" alt="Tênis Chunky">
+
+      <div class="produtos__texto">
+        <p class="produtos__linha__titulo">Tênis Chunky</p>
+        <p class="produtos__linha__descricao">Snicker casual com solado mais alto e modelagem<br>robusta. Modelo unissex.</p>
+        <p class="produtos__linha__preco">R$ 250,00</p> 
+        <a class="produtos__linha__vermais">Ver mais</a>
+      </div>
+    </div>
+
+    <div class="produtos__linha">
+
+      <img src="Imagens/produtos/img4.png" alt="Jaqueta Jeans">
+
+      <iv class="produtos__texto">
+        <p class="produtos__linha__titulo">Jaqueta Jeans</p>
+        <p class="produtos__linha__descricao">Modelo unissex oversized com gola de camurça.<br>Atemporal e autêntica!</p>
+        <p class="produtos__linha__preco">R$ 150,00</p>
+        <a class="produtos__linha__vermais">Ver mais</a>
+      </div>
+    </div>
+
+    <div class="produtos__linha">
+
+      <img src="Imagens/produtos/img5.png" alt="Óculos Redondo">
+
+      <div class="produtos__texto">
+        <p class="produtos__linha__titulo">Óculos Redondo</p>
+        <p class="produtos__linha__descricao">Armação metálica em grafite com lentes<br>arredondadas. Sem erro!</p>
+        <p class="produtos__linha__preco">R$ 120,00</p>
+        <a class="produtos__linha__vermais">Ver mais</a>
+      </div>
+    </div>
+
+    <div class="produtos__linha">
+
+      <img src="Imagens/produtos/img6.png" alt="Bolsa coringa">
+
+      <div class="produtos__texto">
+        <p class="produtos__linha__titulo">Bolsa coringa</p>
+        <p class="produtos__linha__descricao">Bolsa camel em couro sintético de alta duração.<br>Ideal para acompanhar você por uma vida!</p>
+        <p class="produtos__linha__preco">R$ 120,00</p>
+        <a class="produtos__linha__vermais">Ver mais</a>
+      </div>
+    </div>
+
+  </nav>
+</section>
+
+<section class="facilidades__compras">
+  <h4 class="titulo__categorias__card">Conheça todas as nossas facilidades</h4>
+
+  <ul class="container">
+    
+    <li class="container__link">
+        <img src="Imagens/facilidades.pagamentos/pix.png" class="facilidades__pix" alt="Emblema pix">
+      <div class="facilidades__texto">
+        <p class="facilidades__texto__titulo">Pague pelo pix</p>
+        <p class="facilidades__texto__paragrafo">Ganhe 5% OFF em pagamentos via PIX.</p>
+      </div>
+    </li>
+
+    <li class="container__link">
+        <img src="Imagens/facilidades.pagamentos/trocagratis.png" class="facilidades__troca" alt="Arrow repeat">
+      <div class="facilidades__texto">
+        <p class="facilidades__texto__titulo">Troca Gratis</p>
+        <p class="facilidades__texto__paragrafo">Fique livre para trocar em até 30 dias.</p>
+      </div>
+    </li>
+
+    <li class="container__link">
+         <img src="Imagens/facilidades.pagamentos/sustentabilidade.png" class="facilidades__sustentabilidade" alt="flower">
+      <div class="facilidades__texto">
+        <p class="facilidades__texto__titulo">Sustentabilidade</p>
+        <p class="facilidades__texto__paragrafo">Moda responsável, que respeitao meio ambiente.</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <div class="card">
+  <p class="card__texto">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</p>
+  <div class="card__campo__buscar">
+    <input class="card__buscar__pesquisa" type="text" placeholder="Digite seu email" required>
+    <button class="card__botao__enviar">Enviar</button>
+  </div>
+</div>
+</section>
+
+<footer class="rodape">
+   <p class="rodape__texto">2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+  spaceBetween: 10,
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+});
+</script>
+</body>
+</html>

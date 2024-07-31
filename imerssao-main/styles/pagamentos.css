@@ -1,0 +1,45 @@
+.facilidades__compras{
+    background-color: black;
+}
+
+.titulo__categorias__card{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 1em;
+    padding-top: 1.5em;
+}
+
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 1em;
+    padding: 2em;
+
+}
+
+.container__link{
+    display: flex;
+    padding: 1em;
+    gap: 10%;
+}
+
+.facilidades__texto{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    gap: 10%;
+}
+
+.facilidades__texto__titulo{
+    color: #DAFF01;
+    font-weight: bold;
+}
+
+.facilidades__texto__paragrafo{
+    color: white;
+    font-size: 13px;
+}

@@ -1,0 +1,14 @@
+.rodape{
+background-color: black;
+padding: 1em;
+}
+
+.rodape__texto{
+display: flex;
+flex-direction: column;  
+color: white;
+text-align: center;
+font-size: 13px;
+font-family: 'Inter', sans-serif;
+padding: 2px;
+}

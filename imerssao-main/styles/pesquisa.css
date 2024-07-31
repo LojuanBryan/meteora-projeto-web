@@ -1,0 +1,24 @@
+.campo__buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    gap: 0.5rem;
+    padding: 1.3em;
+}
+
+.buscar__pesquisa{
+    border-radius: 1px;
+    border: 2px outset black;
+    padding: 0.6rem 2rem;
+}
+
+.botao__src{
+    border: 2px outset black;
+    border-radius: 1px;
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0.6rem 1rem;
+}

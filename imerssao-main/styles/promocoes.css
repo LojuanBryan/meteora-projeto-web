@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px outset black;
+    margin: 1em;
+    padding: 3em;
+}
+
+.card__texto{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.card__campo__buscar{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    padding: 1.3em;
+}
+
+.card__buscar__pesquisa{
+    border-radius: 1px;
+    border: 1px outset black;
+    padding: 0.6em 2em;
+}
+
+.card__botao__enviar{
+    border: 1px solid #9353FF;
+    background: #9353FF;
+    border-radius: 1px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.6em 2em;
+}

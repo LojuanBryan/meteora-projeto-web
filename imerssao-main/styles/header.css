@@ -1,0 +1,16 @@
+.cabecalho{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 7.85625rem;
+}
+
+.cabecalho__menu-hamburguer{
+    width: 1.125rem;
+    height: 1.125rem;
+    background-image: url(../Imagens/icon.png);
+    display: inline-block;
+}
