@@ -7,3 +7,6 @@ A Meteora é uma marca fictícia de moda que aposta em um visual elegante e adap
 🛠 Tecnologias Utilizadas
 HTML5
 CSS3
+
+https://github.com/user-attachments/assets/f2423c74-207f-4133-8454-edee19f94c5f
+
